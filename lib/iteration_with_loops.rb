@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while r < src.length do
     ei = 0
     while ei < src[r].length do
-      if src[r][ei].class == Integer
+      if src[r][ei].class == String
         finish << src[r][ei]
       end
       ei += 1
