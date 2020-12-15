@@ -8,6 +8,7 @@ def join_nested_strings(src)
     while ei < src[r].length do
       if src[r][ei].class == Integer
         finish << src[r][ei]
+      end
       ei += 1
     end
     r+= 1
