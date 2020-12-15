@@ -10,5 +10,6 @@ def join_nested_strings(src)
       ei += 1
     end
     r+= 1
-    
+  end
+  finish
 end
