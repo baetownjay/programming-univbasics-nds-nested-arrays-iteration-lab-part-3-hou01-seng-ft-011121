@@ -9,5 +9,6 @@ def join_nested_strings(src)
       finish << src[r][ei]
       ei += 1
     end
+    r+= 1
     
 end
