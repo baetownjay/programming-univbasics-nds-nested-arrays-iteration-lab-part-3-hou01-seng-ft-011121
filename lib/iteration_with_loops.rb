@@ -6,10 +6,11 @@ def join_nested_strings(src)
   while r < src.length do
     ei = 0
     while ei < src[r].length do
-      finish << src[r][ei]
+      if src[r][ei].class == Integer
+        finish << src[r][ei]
       ei += 1
     end
     r+= 1
   end
-  finish
+  finish.join(" ")
 end
